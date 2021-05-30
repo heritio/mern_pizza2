@@ -71,3 +71,28 @@ input {
   margin-top: 10px !important;
   box-shadow: none !important;
 }
+.list-style {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .mobile-nav {
+    display: flex !important;
+    flex-direction: column !important;
+    height: min-content !important;
+  }
+  #navbarNav {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .mg-top {
+    margin-top: 220px !important;
+  }
+  .navbar-nav {
+    margin: auto !important;
+  }
+}
+.navbar-nav {
+  margin-left: auto !important;
+}
